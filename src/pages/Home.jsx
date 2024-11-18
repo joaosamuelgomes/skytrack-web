@@ -204,7 +204,7 @@ import { CloudRain, Drop, Thermometer, Waveform, ArrowsCounterClockwise} from "@
                     <div className="bg-blue-50 p-4 rounded-lg shadow-lg">
                         <h3 className="text-lg font-semibold">Direção do Vento</h3>
                         <p>
-                            Direção do vento: ({lastCruzeiroRecord.emw_wind_direction}°) {getWindDirection(lastCruzeiroRecord.emw_wind_direction)}
+                            ({lastCruzeiroRecord.emw_wind_direction}°) {getWindDirection(lastCruzeiroRecord.emw_wind_direction)}
                         </p>
                     </div>
                     <div className="bg-blue-50 p-4 rounded-lg shadow-lg">
